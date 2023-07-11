@@ -1,0 +1,26 @@
+{
+  "name": "@thecoderscott/scottcore",
+  "version": "0.0.1",
+  "description": "The core component library for thecoderscott",
+  "main": "index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecoderscott/scottcore.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "library",
+    "ui",
+    "ux"
+  ],
+  "author": "coderscott <me@coderscott.dev>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thecoderscott/scottcore/issues"
+  },
+  "homepage": "https://github.com/thecoderscott/scottcore#readme"
+}
