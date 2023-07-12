@@ -4,7 +4,9 @@
   "description": "The core component library for thecoderscott",
   "main": "index.ts",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,21 @@
   "bugs": {
     "url": "https://github.com/thecoderscott/scottcore/issues"
   },
-  "homepage": "https://github.com/thecoderscott/scottcore#readme"
+  "homepage": "https://github.com/thecoderscott/scottcore#readme",
+  "dependencies": {
+    "storybook": "^7.0.27",
+    "styled-components": "^6.0.3"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.27",
+    "@storybook/addon-interactions": "^7.0.27",
+    "@storybook/addon-links": "^7.0.27",
+    "@storybook/blocks": "^7.0.27",
+    "@storybook/react": "^7.0.27",
+    "@storybook/react-vite": "^7.0.27",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }
