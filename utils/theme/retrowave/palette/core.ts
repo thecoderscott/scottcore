@@ -1,14 +1,6 @@
 import { Palette } from "../../types";
 
-export const core: Pick<
-  Palette,
-  "primary" |
-  "primaryHighlight" |
-  "secondary" |
-  "secondaryHighlight" |
-  "tertiary" |
-  "tertiaryHighlight"
-> = {
+export const core: Palette["core"] = {
   primary: '#F6019D',
   primaryHighlight: '#FF9BDB',
   secondary: '#9700CC',

@@ -1,10 +1,12 @@
 import { Theme } from "../types/theme";
-import { core, mono } from './palette'
+import { backgrounds, borders, core, mono } from './palette'
 
 export const retrowave: Theme = {
   palette: {
-    ...core,
+    core,
     mono,
+    backgrounds,
+    borders,
   },
 
   typography: {

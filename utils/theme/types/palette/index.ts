@@ -1,10 +1,12 @@
 export interface Palette {
-  primary: string;
-  primaryHighlight: string;
-  secondary: string;
-  secondaryHighlight: string;
-  tertiary: string;
-  tertiaryHighlight: string;
+  core: {
+    primary: string;
+    primaryHighlight: string;
+    secondary: string;
+    secondaryHighlight: string;
+    tertiary: string;
+    tertiaryHighlight: string;
+  };
 
   mono?: {
     white: string;
@@ -20,4 +22,15 @@ export interface Palette {
       darkest: string;
     };
   };
+
+  backgrounds: {
+    primary: string;
+    secondary: string;
+    gradient: string;
+  };
+
+  borders: {
+    primary: string;
+    gradient: string;
+  }
 }
