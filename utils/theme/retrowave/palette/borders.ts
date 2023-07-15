@@ -1,8 +1,8 @@
-import color from 'color';
+import { CoreColours } from "../../../enums/CoreColours";
 
 import { Palette } from "../../types";
 
 export const borders: Palette["borders"] = {
-  primary: "#FFF",
-  gradient: `linear-gradient(180deg, ${color("#F6019D").alpha(.5)} 0%, ${color("#2DE2E6").alpha(.5)} 100%)`
+  primary: CoreColours.WHITE,
+  gradient: `linear-gradient(var(--angle), var(--gradientFrom) 0%, var(--gradientTo) 100%)`
 }

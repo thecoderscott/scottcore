@@ -1,6 +1,10 @@
 import { Theme } from "../types/theme";
 import { backgrounds, borders, core, mono } from './palette'
 
+import { CoreColours } from "../../enums/CoreColours";
+
+import { textInputTheme, buttonTheme } from "../types/components/Inputs";
+
 export const retrowave: Theme = {
   palette: {
     core,
@@ -10,7 +14,7 @@ export const retrowave: Theme = {
   },
 
   typography: {
-    heading: '#FFFFFF',
+    heading: CoreColours.WHITE,
     body: {
       default: mono.grey.default,
       emphasis: mono.grey.lighter
@@ -19,9 +23,8 @@ export const retrowave: Theme = {
 
   components: {
     inputs: {
-      text: {
-
-      }
-    }
+      text: textInputTheme,
+      button: buttonTheme
+    },
   }
 };

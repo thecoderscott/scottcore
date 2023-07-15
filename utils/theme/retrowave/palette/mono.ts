@@ -1,8 +1,10 @@
+import { CoreColours } from "../../../enums/CoreColours";
+
 import { Palette } from "../../types";
 
 export const mono: Palette["mono"] = {
-  black: '#000000',
-  white: '#FFFFFF',
+  black: CoreColours.BLACK,
+  white: CoreColours.WHITE,
   grey: {
     lightest: '#EEEEEE',
     lighter: '#CCCCCC',

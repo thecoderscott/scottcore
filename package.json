@@ -27,6 +27,7 @@
   "homepage": "https://github.com/thecoderscott/scottcore#readme",
   "dependencies": {
     "color": "^4.2.3",
+    "react-feather": "^2.0.10",
     "storybook": "^7.0.27",
     "styled-components": "^6.0.3"
   },
@@ -38,8 +39,10 @@
     "@storybook/react": "^7.0.27",
     "@storybook/react-vite": "^7.0.27",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@storybook/theming": "^7.0.27",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "storybook-dark-mode": "^3.0.0"
   }
 }
